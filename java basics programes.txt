@@ -1,0 +1,261 @@
+// // // // // // import java.util.*;
+// // // // // // public class Main{
+// // // // // //      public static void main(String args[]){
+// // // // // //           Scanner sc = new Scanner(System.in);
+// // // // // //           System.out.println("Enter the size of array : ");
+// // // // // //           int s = sc.nextInt();
+// // // // // //           int a[] = new int[s];
+// // // // // //           int b[] = new int[s+1];
+// // // // // //                     System.out.println("Enter the value of array : ");
+// // // // // //                     for(int i=0;i<a.length;i++){
+// // // // // //                          a[i] = sc.nextInt();
+                         
+// // // // // //                      }
+// // // // // //                     // for(int i=0;i<a.length;i++){
+// // // // // //                     //                System.out.println(" The value of array is : " + arr[i]);
+
+// // // // // //                     // }
+// // // // // //           System.out.println("Enter the index where you insert the element  : ");
+// // // // // //           int m = sc.nextInt();
+// // // // // //           System.out.println("Enter the value which you add in array : ");
+// // // // // //           int p = sc.nextInt();
+// // // // // //           for(int i=0;i<s+1;i++){
+// // // // // //                if(i<m){
+// // // // // //                   b[i]=a[i];
+                  
+// // // // // //                }else if(i == m){
+// // // // // //                     b[i] = p;
+                    
+// // // // // //                }else {
+// // // // // //                     b[i] = a[i-1];
+// // // // // //                }
+// // // // // //           }
+// // // // // //           for(int i=0;i<s;i++){
+// // // // // //                System.out.println(b[i]);
+// // // // // //           }
+
+          
+// // // // // //      }
+// // // // // // }
+// // // // // import java.util.*;
+// // // // // public class Main{
+// // // // //      public static void main(String args[]){
+// // // // //           Scanner sc = new Scanner (System.in);
+// // // // //           System.out.println("Enter the indexes of array");
+// // // // //           int s = sc.nextInt();
+// // // // //           int arr[] = new int[s];
+// // // // //                     System.out.println("Enter the value of array");
+// // // // // for(int i=0;i<arr.length;i++){
+// // // // //      arr[i]=sc.nextInt();
+// // // // // }
+// // // // //           // System.out.println("Sort array is : ");
+
+// // // // // for(int i=0;i<arr.length;i++){
+// // // // //      Arrays.sort(arr);
+// // // // //                // System.out.println(arr[i]);
+
+// // // // // }
+// // // // // System.out.println("Second largest is : "+arr[s-2]);
+// // // // // System.out.println("Second smallest is : "+arr[1]);
+
+// // // // //      }
+// // // // // }
+// // // // import java.util.*;
+// // // // public class Main{
+// // // //      public static void main(String args[]){
+// // // //           int i;
+// // // //           int arr[] = {0,2,0,6,3,0,4};
+// // // //           Arrays.sort(arr);
+// // // //           for( i=arr.length-1;i<arr.length;i--){
+// // // //                System.out.println(arr[i]);
+// // // //           }
+// // // //           // System.out.println(arr[i]);
+// // // //      }
+// // // // }
+
+
+// // // import java.util.*;
+// // // public class Main{
+// // //      public static void main(String args[]){
+// // //           int arr[] = {1,2,3,4,5,6,7};
+// // //         System.out.println("All even numbers are : ");
+// // //         for(int i=0;i<arr.length;i++){
+// // //              if(arr[i] %2 == 0){
+// // //                   System.out.println("Even numbers of array is : "+arr[i] + " ");
+// // //              }
+// // //         }
+        
+// // //         System.out.println("All odd numbers are : ");
+// // //         for(int i=0;i<arr.length;i++){
+// // //              if(arr[i] %2 != 0){
+// // //                   System.out.println("odd numbers of array is : "+arr[i] + " ");
+// // //              }
+// // //         } 
+// // //      }
+// // // }
+
+// // import java.util.*;
+// // public class Main{
+// //      public static void main(String args[]){
+// //           int arr[] = {1,2,3,1,2,4,3,5};
+// //           Arrays.sort(arr);
+// //           for(int i=0;i<arr.length;i++){
+// //                for(int j=i+1;j<arr.length;j++){
+// //                     if(arr[i] == arr[j]){
+// //                          System.out.println(arr[i]);
+// //                     }
+// //                }
+// //           }
+// //      }
+// // }
+
+// // import java.util.*;
+// // public class Main{
+// //      public static void main(String args[]){
+// //           int arr[] = {1,2,3,4,5,6};
+// //           int sum =0 ;
+// //           for (int i=0;i<arr.length;i++){
+// //                sum = sum+ arr[i];
+// //           }
+// //           System.out.println(sum);
+        
+// //      }
+// // }
+
+// import java.util.*;
+// public class Main{
+//      public static void main(String args[]){
+//           int i;
+//           int arr[] = {1,2,3,4,5,6};
+//           int Sum =0 ;
+          
+//           // for( i=0;i<arr.length;i++){
+//           //      sum = sum+arr[i];
+//           //      arr[i] = sum ;
+//           // }
+//           // System.out.println(arr[i]); 
+//           //   int Sum = 0;
+//      //    int[] arr = new int[nums];
+
+//         for ( i = 0; i < arr.length; i++) {
+            
+//             Sum = Sum + arr[i];
+//             arr[i] = Sum;
+//         }
+//        System.out.println(Sum);
+  
+        
+//      }
+// }
+
+
+
+// import java.util.*;
+// public class Main{
+//      public static void main(String args[]){
+//           int arr[] = {5,2,-1,4,-2,1,-3};
+//           int maxSum = 0;
+//           for (int i=0;i<arr.length;i++){
+//                int sum = arr[i];
+//                for(int j=i+1;j<arr.length;j++){
+//                     sum = sum+arr[j];
+//                     maxSum = Math.max(maxSum,sum);
+//                }
+//           }
+//           System.out.println(maxSum);
+//      }
+// }
+
+// import java.util.*;
+// public class Main {
+//      public static void main (String args[]){
+//         String name = "Piyush";
+//         System.out.println(name);
+//                 System.out.println(name.length());
+
+//      }
+// }
+// import java.util.*;
+// public class Main {
+//      public static void main (String args[]){
+//         char[] ch={'j','a','v','a','t','p','o','i','n','t'};  
+// String s=new String(ch); 
+// System.out.println(s);
+
+//      }
+// }
+
+
+// import java.util.*;
+// public class Main{
+//      public static void main(String args[]){
+//           StringBuilder name = new StringBuilder ("Piyush");
+//           name.reverse();
+//           System.out.println(name);
+//      }
+// }
+
+import java.util.*;
+public class Main {
+     public static void main (String args[]){
+     String name ="Piyush Singh" ;
+     // char ch[]=name.toCharArray(); 
+     // for(int i=ch.length-1;i>=0;i--){
+     //      // if(ch[i] == 'P'){
+     //      //    ch[i] = 'A' ;
+     //      // }
+     //      System.out.println(ch[i]);
+     name.contains("Singh");
+           System.out.println(   name.contains("Singh"));
+     
+     
+     
+     
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
